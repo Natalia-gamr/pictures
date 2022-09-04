@@ -14,7 +14,7 @@ const burger = (menuSelector, burgerSelector) =>  {
 
     window.addEventListener('resize', () => {
         if (window.screen.availWidth > 992) {
-            menu.style.display = 'none';
+            menuElem.style.display = 'none';
         }
     })
 }
